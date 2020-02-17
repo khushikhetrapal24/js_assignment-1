@@ -5,6 +5,11 @@
 body {
     background-color: brown;
 }
+h2 {
+    padding: 15px 0;
+    color: #c1d427;
+    font-size: 69px;
+}
 .container {
     width: 75%;
     margin: 0 auto;
