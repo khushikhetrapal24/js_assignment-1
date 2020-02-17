@@ -3,7 +3,7 @@ var textToSpeak = '';
 const arrayOne = ['The Turkey',  'Mom','Dad', 'My Teacher',  'The Elephant','The Cat'];
 const listOne = document.querySelector('.list-one ul');
 
-const arrayTwo = ['Sat On', 'Ate', 'Danced with', 'Saw', 'Desnt Like', 'Kissed'];
+const arrayTwo = ['Sat On', 'Ate', 'Danced with', 'Saw', 'Does Not Like', 'Kissed'];
 const listTwo = document.querySelector('.list-two ul');
 
 const arrayThree = ['A Funny', 'A Scary', 'A Goody', 'A Slimy', 'A Barking', 'A Fat'];
