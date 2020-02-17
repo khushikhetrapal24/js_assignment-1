@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: brown;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+    /* background-color: #ccc; */
+    text-align: center;
+}
+div[class^='list-'] {
+    text-align: center;
+    width: 20%;
+    float: left;
+    padding: 10px 0 0;
+}
+
+span.number {
+    display: inline-block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50PX;
+}
+
+ul {
+    list-style-type: none;
+    border: 1px solid #000;
+    margin: 20px 10px;
+}
+ul li {
+    padding: 20px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
+.list-one ul li:hover {
+    background-color: rgb(255, 144, 255);
+}
+.list-two ul li:hover {
+    background-color: #b0e8ff;
+}
+.list-three ul li:hover {
+    background-color: rgb(152, 255, 152);
+}
+.list-four ul li:hover {
+    background-color: rgb(254, 208, 121);
+}
+.list-five ul li:hover {
+    background-color: rgb(255, 135, 154);
+}
+.list-one {
+    background-color: rgb(194, 101, 194);
+}
+.list-two {
+    background-color: skyblue;
+}
+.list-three {
+    background-color: rgb(100, 190, 100);
+}
+.list-four {
+    background-color: rgb(233, 178, 75);
+}
+.list-five {
+    background-color: rgb(230, 94, 116);
+}
+.btn {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+.clear {
+    clear: both;
+    display: table;
+}
